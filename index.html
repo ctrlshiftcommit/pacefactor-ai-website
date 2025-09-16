@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>PaceFactor AI - AI Powered Automation Solutions</title>
+    <meta content="Discover intelligent business automation with PaceFactor AI. Transform operations, optimize workflows, and accelerate growth with AI-enabled precision and zero friction." name="description"/>
+    <meta content="PaceFactor AI - AI Powered Automation Solutions" property="og:title"/>
+    <meta content="Discover intelligent business automation with PaceFactor AI. Transform operations, optimize workflows, and accelerate growth with AI-enabled precision and zero friction." property="og:description"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    
+    <!-- GSAP for animations -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+    
+    <!-- Prevent animation flicker -->
+    <style>
+        [slide-in-header], [split-header] { visibility: hidden; }
+    </style>
+    
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Banner Component -->
+    <section class="banner-component">
+        <div class="padding-global">
+            <div class="container-large">
+                <div class="banner-content-wrapper">
+                    <div class="banner-content">
+                        <div class="banner-content-left">
+                            <div class="text-weight-medium text-size-medium text-gradient-white">
+                                <span class="text-gradient-gold text-weight-normal">Upcoming Webinar:</span> 
+                                From Manual to Automated - Mastering AI Workflows & Business Process Automation<br/>
+                                <span class="text-gradient-gold text-weight-normal">October 15th </span>|
+                                <span class="text-gradient-gold text-weight-normal"> 2 PM EST </span>|
+                                <span class="text-gradient-gold text-weight-normal"> LIVE on LinkedIn</span>
+                            </div>
+                        </div>
+                        <a href="#" target="_blank" class="button-secondary">
+                            <div class="button-secondary-content">
+                                <div class="button-content">
+                                    <div class="text-size-regular text-gradient-gold">Register Now!</div>
+                                    <div class="icon-embed-custom1">
+                                        <svg width="100%" height="100%" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="button-glow"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navbar Component -->
+    <div class="navbar-component">
+        <div class="padding-global">
+            <div class="container-large">
+                <div class="navbar-container">
+                    <a href="/" class="navbar-logo-link">
+                        <div class="logo-text">PaceFactor<span class="text-gradient-gold">AI</span></div>
+                    </a>
+                    
+                    <nav class="navbar-menu">
+                        <div class="navbar-menu-links">
+                            <div class="navbar-menu-dropdown">
+                                <div class="navbar-dropdown-toggle">
+                                    <div>Solutions</div>
+                                    <div class="dropdown-chevron">
+                                        <svg width="100%" height="100%" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M2.55806 6.29544C2.46043 6.19781 2.46043 6.03952 2.55806 5.94189L3.44195 5.058C3.53958 4.96037 3.69787 4.96037 3.7955 5.058L8.00001 9.26251L12.2045 5.058C12.3021 4.96037 12.4604 4.96037 12.5581 5.058L13.4419 5.94189C13.5396 6.03952 13.5396 6.19781 13.4419 6.29544L8.17678 11.5606C8.07915 11.6582 7.92086 11.6582 7.82323 11.5606L2.55806 6.29544Z" fill="currentColor"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <nav class="navbar-dropdown-list">
+                                    <div class="navbar-dropdown-content">
+                                        <a href="solutions/workflow-automation.html" class="navbar-dropdown-link">
+                                            <div class="navbar-text-wrapper">
+                                                <div class="text-size-small">Workflow Automation</div>
+                                            </div>
+                                        </a>
+                                        <a href="solutions/process-optimization.html" class="navbar-dropdown-link">
+                                            <div class="navbar-text-wrapper">
+                                                <div class="text-size-small">Process Optimization</div>
+                                            </div>
+                                        </a>
+                                        <a href="solutions/intelligent-analytics.html" class="navbar-dropdown-link">
+                                            <div class="navbar-text-wrapper">
+                                                <div class="text-size-small">Intelligent Analytics</div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </div>
+                            
+                            <div class="navbar-menu-dropdown">
+                                <div class="navbar-dropdown-toggle">
+                                    <div>Industries</div>
+                                    <div class="dropdown-chevron">
+                                        <svg width="100%" height="100%" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M2.55806 6.29544C2.46043 6.19781 2.46043 6.03952 2.55806 5.94189L3.44195 5.058C3.53958 4.96037 3.69787 4.96037 3.7955 5.058L8.00001 9.26251L12.2045 5.058C12.3021 4.96037 12.4604 4.96037 12.5581 5.058L13.4419 5.94189C13.5396 6.03952 13.5396 6.19781 13.4419 6.29544L8.17678 11.5606C8.07915 11.6582 7.92086 11.6582 7.82323 11.5606L2.55806 6.29544Z" fill="currentColor"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <a href="case-studies.html" class="navbar-link">Case Studies</a>
+                            <a href="about.html" class="navbar-link">About</a>
+                            <a href="contact.html" class="navbar-link">Contact</a>
+                        </div>
+                        
+                        <div class="navbar-menu-buttons">
+                            <div class="navbar-button">
+                                <a href="demo.html" class="button-primary">
+                                    <div class="button-content">
+                                        <div class="text-size-regular">Get Started</div>
+                                        <div class="arrow">
+                                            <svg width="100%" height="100%" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="button-glow"></div>
+                                    <div class="button-primary-pattern"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-background"></div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-wrapper">
+        <!-- Header Section -->
+        <header id="header" class="section-home-header">
+            <div class="padding-global">
+                <div class="container-large">
+                    <div class="home-header-component">
+                        <div class="home-header-layout">
+                            <div class="home-header-left-wrapper">
+                                <!-- Background Tiles -->
+                                <div class="bg-tiles-component">
+                                    <div class="bg-tiles-list">
+                                        <!-- Animated background tiles -->
+                                        <div class="bg-tiles-item">
+                                            <div class="bg-tiles-wrapper">
+                                                <div class="bg-tiles-image"></div>
+                                            </div>
+                                            <div class="bg-tiles-dot"></div>
+                                        </div>
+                                        <div class="bg-tiles-item">
+                                            <div class="bg-tiles-wrapper">
+                                                <div class="bg-tiles-image gold"></div>
+                                            </div>
+                                            <div class="bg-tiles-dot"></div>
+                                        </div>
+                                        <div class="bg-tiles-item">
+                                            <div class="bg-tiles-wrapper">
+                                                <div class="bg-tiles-image"></div>
+                                            </div>
+                                            <div class="bg-tiles-dot"></div>
+                                        </div>
+                                        <div class="bg-tiles-item">
+                                            <div class="bg-tiles-wrapper">
+                                                <div class="bg-tiles-image gold"></div>
+                                            </div>
+                                            <div class="bg-tiles-dot"></div>
+                                        </div>
+                                        <div class="bg-tiles-item">
+                                            <div class="bg-tiles-wrapper">
+                                                <div class="bg-tiles-image"></div>
+                                            </div>
+                                            <div class="bg-tiles-dot"></div>
+                                        </div>
+                                        <div class="bg-tiles-item">
+                                            <div class="bg-tiles-wrapper">
+                                                <div class="bg-tiles-image gold"></div>
+                                            </div>
+                                            <div class="bg-tiles-dot"></div>
+                                        </div>
+                                        <!-- Light rays -->
+                                        <div class="bg-tiles-ray-down ray-1"></div>
+                                        <div class="bg-tiles-ray-down ray-2"></div>
+                                        <div class="bg-tiles-ray-up ray-1"></div>
+                                        <div class="bg-tiles-ray-up ray-2"></div>
+                                        <div class="bg-tiles-ray-left ray-1"></div>
+                                        <div class="bg-tiles-ray-right ray-1"></div>
+                                    </div>
+                                </div>
+                                
+                                <!-- Header Content -->
+                                <div class="home-header-content">
+                                    <div class="padding-section-large">
+                                        <div slide-in-header="" class="tag">
+                                            <div>AI AUTOMATION SOLUTIONS</div>
+                                        </div>
+                                        <div class="spacer-small"></div>
+                                        <h1 slide-in-header="" class="heading-style-h1 text-gradient-horizontal">
+                                            Accelerate your business with <span class="text-gradient-gold">AI automation</span>
+                                        </h1>
+                                        <div class="spacer-small"></div>
+                                        <p slide-in-header="" class="text-size-medium">
+                                            Transform your operations with our cutting-edge AI automation platform. 
+                                            Streamline workflows, optimize processes, and unlock unprecedented efficiency 
+                                            across your entire organization.
+                                        </p>
+                                        <div class="spacer-medium"></div>
+                                        <div slide-in-header="" class="button-group">
+                                            <a href="demo.html" class="button-primary">
+                                                <div class="button-content">
+                                                    <div class="text-size-regular">Request a Demo</div>
+                                                    <div class="arrow">
+                                                        <svg width="100%" height="100%" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                                <div class="button-glow"></div>
+                                                <div class="button-primary-pattern"></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Hero Animation Area -->
+                            <div class="hero-animation-embed">
+                                <div class="hero-animation-placeholder">
+                                    <div class="animated-logo">
+                                        <div class="logo-ring"></div>
+                                        <div class="logo-core">AI</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home-header-background"></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Logo Section -->
+        <section id="logos" class="section-logo">
+            <div class="padding-global">
+                <div class="container-large">
+                    <div class="padding-section-large">
+                        <div class="logo-content">
+                            <div class="text-align-center">
+                                <div class="max-width-large align-center">
+                                    <div slide-in="" class="text-size-large">
+                                        Trusted by innovative companies worldwide
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="spacer-small"></div>
+                            <div class="logo-component">
+                                <div class="logo-list-wrapper">
+                                    <div class="logo-list">
+                                        <div class="logo-item">
+                                            <div class="logo-wrapper">
+                                                <div class="client-logo">TechCorp</div>
+                                            </div>
+                                        </div>
+                                        <div class="logo-item">
+                                            <div class="logo-wrapper">
+                                                <div class="client-logo">InnovateX</div>
+                                            </div>
+                                        </div>
+                                        <div class="logo-item">
+                                            <div class="logo-wrapper">
+                                                <div class="client-logo">FutureScale</div>
+                                            </div>
+                                        </div>
+                                        <div class="logo-item">
+                                            <div class="logo-wrapper">
+                                                <div class="client-logo">AutoFlow</div>
+                                            </div>
+                                        </div>
+                                        <div class="logo-item">
+                                            <div class="logo-wrapper">
+                                                <div class="client-logo">SmartOps</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="section-features">
+            <div class="padding-global">
+                <div class="container-large">
+                    <div class="padding-section-large">
+                        <div class="features-content">
+                            <div class="text-align-center">
+                                <div class="max-width-large align-center">
+                                    <h2 slide-in="" class="heading-style-h2">
+                                        Powerful AI automation that transforms your business
+                                    </h2>
+                                    <div class="spacer-small"></div>
+                                    <p slide-in="" class="text-size-medium">
+                                        Our comprehensive AI platform delivers intelligent automation 
+                                        solutions that adapt to your unique business needs.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="spacer-large"></div>
+                            <div class="features-grid">
+                                <div class="feature-item" slide-in="">
+                                    <div class="feature-icon">
+                                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12 2L13.09 6.26L16 4L14.74 8.5L19 9L14.16 11.84L15 16L12 13.5L9 16L9.84 11.84L5 9L9.26 8.5L8 4L10.91 6.26L12 2Z" fill="currentColor"/>
+                                        </svg>
+                                    </div>
+                                    <h3 class="feature-title">Intelligent Workflows</h3>
+                                    <p class="feature-description">
+                                        Automate complex business processes with AI-driven decision making 
+                                        and adaptive workflow optimization.
+                                    </p>
+                                </div>
+                                
+                                <div class="feature-item" slide-in="">
+                                    <div class="feature-icon">
+                                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 11H7V13H9V11ZM13 11H11V13H13V11ZM17 11H15V13H17V11ZM19 4H18V2H16V4H8V2H6V4H5C3.9 4 3 4.9 3 6V20C3 21.1 3.9 22 5 22H19C20.1 22 21 21.1 21 20V6C21 4.9 20.1 4 19 4ZM19 20H5V9H19V20Z" fill="currentColor"/>
+                                        </svg>
+                                    </div>
+                                    <h3 class="feature-title">Real-time Analytics</h3>
+                                    <p class="feature-description">
+                                        Monitor performance and gain actionable insights with advanced 
+                                        analytics and predictive modeling capabilities.
+                                    </p>
+                                </div>
+                                
+                                <div class="feature-item" slide-in="">
+                                    <div class="feature-icon">
+                                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM13 17H11V15H13V17ZM13 13H11V7H13V13Z" fill="currentColor"/>
+                                        </svg>
+                                    </div>
+                                    <h3 class="feature-title">Seamless Integration</h3>
+                                    <p class="feature-description">
+                                        Connect with your existing tools and systems through our 
+                                        extensive API library and pre-built integrations.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="section-cta">
+            <div class="padding-global">
+                <div class="container-large">
+                    <div class="padding-section-large">
+                        <div class="cta-content">
+                            <div class="text-align-center">
+                                <div class="max-width-large align-center">
+                                    <h2 slide-in="" class="heading-style-h2 text-gradient-horizontal">
+                                        Ready to transform your business with <span class="text-gradient-gold">AI automation?</span>
+                                    </h2>
+                                    <div class="spacer-small"></div>
+                                    <p slide-in="" class="text-size-medium">
+                                        Join thousands of companies already using PaceFactor AI to 
+                                        streamline operations and drive growth.
+                                    </p>
+                                    <div class="spacer-medium"></div>
+                                    <div slide-in="" class="button-group">
+                                        <a href="demo.html" class="button-primary">
+                                            <div class="button-content">
+                                                <div class="text-size-regular">Start Your Journey</div>
+                                                <div class="arrow">
+                                                    <svg width="100%" height="100%" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div class="button-glow"></div>
+                                            <div class="button-primary-pattern"></div>
+                                        </a>
+                                        <a href="contact.html" class="button-secondary">
+                                            <div class="button-secondary-content">
+                                                <div class="button-content">
+                                                    <div class="text-size-regular text-gradient-gold">Contact Sales</div>
+                                                </div>
+                                                <div class="button-glow"></div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="padding-global">
+            <div class="container-large">
+                <div class="padding-section-medium">
+                    <div class="footer-content">
+                        <div class="footer-top">
+                            <div class="footer-brand">
+                                <div class="logo-text">PaceFactor<span class="text-gradient-gold">AI</span></div>
+                                <p class="footer-description">
+                                    Transforming businesses through intelligent automation solutions.
+                                </p>
+                            </div>
+                            <div class="footer-links">
+                                <div class="footer-column">
+                                    <h4 class="footer-heading">Solutions</h4>
+                                    <a href="solutions/workflow-automation.html" class="footer-link">Workflow Automation</a>
+                                    <a href="solutions/process-optimization.html" class="footer-link">Process Optimization</a>
+                                    <a href="solutions/intelligent-analytics.html" class="footer-link">Intelligent Analytics</a>
+                                </div>
+                                <div class="footer-column">
+                                    <h4 class="footer-heading">Company</h4>
+                                    <a href="about.html" class="footer-link">About</a>
+                                    <a href="case-studies.html" class="footer-link">Case Studies</a>
+                                    <a href="contact.html" class="footer-link">Contact</a>
+                                </div>
+                                <div class="footer-column">
+                                    <h4 class="footer-heading">Resources</h4>
+                                    <a href="blog.html" class="footer-link">Blog</a>
+                                    <a href="documentation.html" class="footer-link">Documentation</a>
+                                    <a href="support.html" class="footer-link">Support</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-bottom">
+                            <div class="footer-copyright">
+                                <p>&copy; 2025 PaceFactor AI. All rights reserved.</p>
+                            </div>
+                            <div class="footer-legal">
+                                <a href="privacy.html" class="footer-link">Privacy Policy</a>
+                                <a href="terms.html" class="footer-link">Terms of Service</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/animations.js"></script>
+</body>
+</html>
